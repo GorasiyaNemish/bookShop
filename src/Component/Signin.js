@@ -35,8 +35,8 @@ const Signin = () => {
 
 return (
   <div className="App">
-  <Paper elevation={3} sx={{height: "80vh", marginRight: "35%", marginLeft: "35%" }}>
-    <form onSubmit={formik.handleSubmit}>
+  <Paper elevation={3} sx={{height: "80vh",margin: "5vh 20%",display:"flex", alignItems : "center", justifyContent:"center"}}>
+    <form onSubmit={formik.handleSubmit} >
     <br />
     <Typography variant="h5">Login Form</Typography>
     <br />
@@ -50,7 +50,7 @@ return (
         onChange={formik.handleChange}
         onBlur={formik.handleBlur}error={formik.touched.name && Boolean(formik.errors.name)}
           helperText={formik.touched.name && formik.errors.name}
-          style={{ width: "200px", margin: "5px" }}
+          style={{ width: "400px", margin: "5px" }}
         />
         <br />
         <br />
@@ -63,7 +63,7 @@ return (
         onChange={formik.handleChange}
         onBlur={formik.handleBlur}error={formik.touched.email && Boolean(formik.errors.email)}
           helperText={formik.touched.email && formik.errors.email}
-          style={{ width: "200px", margin: "5px" }}
+          style={{ width: "400px", margin: "5px" }}
         />
         <br />
         <br />
@@ -78,7 +78,7 @@ return (
           onBlur={formik.handleBlur}
           error={formik.touched.password && Boolean(formik.errors.password)}
           helperText={formik.touched.password && formik.errors.password}
-          style={{ width: "200px", margin: "5px" }}
+          style={{ width: "400px", margin: "5px" }}
         />
         <br />
         <br />

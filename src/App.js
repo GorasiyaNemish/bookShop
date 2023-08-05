@@ -9,7 +9,6 @@ import Contact from './Component/Contact';
 import Signup from './Component/Signup';
 import Signin from './Component/Signin';
 
-
 function App() {
   return (
     <div className="App">
