@@ -11,7 +11,7 @@ const About = () => {
   return (
     <div style={containerstyle}>
       <h3>welcome to the About page</h3>
-      <h1>this is updated</h1>
+      {/* <h1>this is updated</h1> */}
     </div>
   )
 }
