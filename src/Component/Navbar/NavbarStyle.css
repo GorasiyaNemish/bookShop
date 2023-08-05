@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img{
+    height: 54px;
+    width: 57px;
+    padding-right: 10px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 4rem;
+    padding: 0.7rem 2rem;
+}
+
+.nav-link{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.home,
+.about,
+.contact,
+.service,
+.signup,
+.signin{
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: white;
+    padding: 0px 20px;
+}
+
+.nav-link li:hover{
+    color:#89bbff;
+    border-bottom: 3px solid #89bbff;
+    transition: all 0.2s ease-in-out;
+}
+
+.mobile-menu-icon{
+    display: none;
+}
+
+@media screen and (max-width:750px){
+    .nav-link{
+        display: none;
+    }
+
+    .mobile-menu-icon{
+        display: block;
+        background-color: black;
+        color: white;
+        font-size: 2rem;
+        font-weight: 500;
+        width: 2.2rem;
+        height: 2.2rem;
+        border: none;
+    }
+
+    .nav-link-mobile{
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 4rem;
+        background-color: black;
+        width: 100%;
+        transition: all 2s ease-in-out;
+    }
+
+    .home,
+    .about,
+    .contact,
+    .service,
+    .signup{
+        line-height: 1.5rem;
+        color: white;
+
+        text-align: center;
+        width: 100%;
+        transition: all 2s ease;
+    }
+}
