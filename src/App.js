@@ -7,7 +7,7 @@ import About from './Component/About';
 import Service from './Component/Service';
 import Contact from './Component/Contact';
 import Signup from './Component/Signup';
-
+import Signin from './Component/Signin';
 
 function App() {
   return (
