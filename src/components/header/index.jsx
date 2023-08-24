@@ -84,7 +84,7 @@ const Header = () => {
             <div className="header-wrapper">
               <div className="logo-wrapper">
                 <Link to="/" className="site-logo" title="logo">
-                  <img src={siteLogo} alt="logo" />
+                  
                 </Link>
               </div>
               <div className="nav-wrapper">
