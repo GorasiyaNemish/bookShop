@@ -29,7 +29,9 @@ const Header = () => {
   const navigate = useNavigate();
 
   // for  mobile menu
-  
+  const openMenu = () => {
+    document.body.classList.toggle("open-menu");
+  };
 
   const items = useMemo(() => {
     return Shared.NavigationItems.filter(
