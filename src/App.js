@@ -10,7 +10,7 @@ import loader from "../src/assets/images/loader.gif";
 import { Footer } from "./components/footer";
 import { AuthWrapper } from "./context/auth";
 import Header from "./components/header";
-
+import { CartWrapper } from "./context/cart";
 
 const App = () => {
   return (
